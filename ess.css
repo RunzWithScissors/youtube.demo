@@ -1,0 +1,280 @@
+/**************
+    HEADER
+***************/
+#modalList li{
+	list-style-type: none;
+}
+
+header, article{
+	margin-bottom: 60px;
+}
+
+header img{
+	position: relative;
+}
+
+header h1{
+	position: absolute;
+	top: 25px;
+	padding-left: 40px;
+	width: 100%;
+	color: #FFF;
+	background-color: rgba(255, 255, 255, 0.4);
+    padding-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.2em;   
+}
+
+header h1 span{
+	font-size: .4em;
+	line-height: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li{
+    padding-right: 15px;
+    float: left;
+    list-style-type: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header nav ul li a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+header nav .current{
+    background-color: #DDD;
+}
+
+header nav ul .current a{
+    color: #FFF;
+    font-size: .7em;
+}
+
+.gap{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+/**************
+    INDEX
+***************/
+
+#content1{
+    margin-top: -48px;
+}
+
+#content2, #content3{
+    margin-bottom: 0;
+}
+
+#content2 img, #content3 img{
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+/**************
+    PRODUCTS
+***************/
+
+#product1 aside img, #product2 aside img{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.asidePanel{
+    border: 1px solid #DDD;
+    border-radius: 5px 5px 5px;
+    padding: 9px;
+    background-color: #FCFCFC;
+}
+
+#product1{
+    margin-top: -48px;
+}
+
+/**************
+    SOCIAL
+***************/
+#social0{
+    margin-bottom: 10px;
+}
+
+.date{
+    background-color: #DEDEDE;
+    padding: 5px;
+	border-radius: 13px;
+    color: #FFF;
+}
+
+#social1{
+    margin-bottom: 18px;
+}
+
+
+#social1 aside ul li{
+    border: none;
+}
+
+#social1 aside ul{
+    border: none !important;
+}
+
+#social1 aside ul li img{
+    width: 50px;
+    height: 50px;
+}
+
+#social2 aside ul li{
+    border: none;
+}
+
+#social2 aside ul{
+    border: none !important;
+}
+
+#social2 aside ul li img{
+    width: 50px;
+    height: 50px;
+}
+
+#social3{
+	margin-top: -30px;
+}
+
+#social3 aside ul li{
+    border: none;
+}
+
+#social3 aside ul{
+    border: none !important;
+}
+
+#social3 aside ul li img{
+    width: 50px;
+    height: 50px;
+}
+
+#social3 ul li{
+	border: none;
+}
+
+#social3 ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+#social3 ul li a:hover{
+	color: #DDD;
+}
+ 
+/**************
+    STORELOCATOR
+***************/
+#locator1 form{
+	margin-bottom: 12px;
+}
+
+#locator1 input{
+	border-radius: 5px;
+}
+
+#locator1 img{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	border: solid 1px #DDD;
+	border-radius: 20px 20px 20px;
+}
+
+#locator1 input{
+	
+}
+
+/**************
+    FOOTER
+***************/
+.footerClass{
+    background-color: #3B3E40;  
+    height: 140px;
+}
+
+.footerClass p{
+    font-size: .9em;
+    color: #FFF;
+    padding-top: 8px;
+    text-align: right;
+}
+
+.footerClass p:nth-of-type(2){
+    margin-bottom: 10px;
+}
+
+#footerInfo li{
+    list-style-type: none;
+    color: #FFF;
+    font-size: .8em;
+}
+
+/* Custom Media Query - Header Fix */
+@media (max-width: 539px) { 
+	header h1{
+		text-align: center;
+		font-size: 3.2em;
+		color: #3D3D3D;
+		padding: 0;
+	}
+	
+	header span{
+		display: none;
+	}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    header nav ul li a{
+        font-size: .7em;
+    }
+ 
+    /**************
+        SOCIAL
+    ***************/
+    .dateList{
+        margin-top: 15px;        
+    }
+    
+    /**************
+        PRODUCTS
+    ***************/
+    #product1 h2{
+        padding-bottom: 15px;
+    }
+    
+    #product1 aside img, #product2 aside img{
+        margin-top: 0;
+        padding-bottom: 15px;
+    }  
+    
+  
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
